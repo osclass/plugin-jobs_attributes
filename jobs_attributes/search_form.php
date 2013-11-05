@@ -1,5 +1,5 @@
 <fieldset>
-    <h3><?php _e("Job attributes", 'jobs_attributes'); ?></h3>
+    <h3><?php _e("Search Jobs", 'jobs_attributes'); ?></h3>
     <div class="row one_input">
         <h6><?php _e('Relation', 'jobs_attributes'); ?></h6>
         <div class="auto">
@@ -21,6 +21,7 @@
                 <option value="UNDEF" <?php echo (Params::getParam('positionType')=='UNDEF')?'selected':''; ?>><?php _e('Undefined', 'jobs_attributes'); ?></option>
                 <option value="FULL" <?php echo (Params::getParam('positionType')=='FULL')?'selected':''; ?>><?php _e('Full-time', 'jobs_attributes'); ?></option>
                 <option value="PART" <?php echo (Params::getParam('positionType')=='PART')?'selected':''; ?>><?php _e('Part time', 'jobs_attributes'); ?></option>
+                <option value="TEMP" <?php echo (Params::getParam('positionType')=='TEMP')?'selected':''; ?>><?php _e('Temp', 'jobs_attributes'); ?></option>
             </select>
         </div>
     </div>
