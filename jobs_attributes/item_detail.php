@@ -1,6 +1,6 @@
 <?php
     $relations = array('HIRE' => __('Hire someone', 'jobs_attributes'), 'LOOK' => __('Looking for a job', 'jobs_attributes'));
-    $positions = array('UNDEF' => __('Undefined', 'jobs_attributes'), 'PART' => __('Part time', 'jobs_attributes'), 'FULL' => __('Full-time', 'jobs_attributes'));
+    $positions = array('UNDEF' => __('Undefined', 'jobs_attributes'), 'PART' => __('Part time', 'jobs_attributes'), 'FULL' => __('Full-time', 'jobs_attributes'), 'TEMP' => __('Temporary', 'jobs_attributes'));
     $salary    = array('HOUR' => __('Hour', 'jobs_attributes'), 'DAY' => __('Day', 'jobs_attributes'), 'WEEK' => __('Week', 'jobs_attributes'), 'MONTH' => __('Month', 'jobs_attributes'), 'YEAR' => __('Year', 'jobs_attributes'));
     $index     = trim(@$detail['e_relation']);
     $locale    = osc_current_user_locale();
