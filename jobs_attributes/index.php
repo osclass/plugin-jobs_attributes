@@ -62,8 +62,8 @@ function job_call_after_install() {
     ModelJobs::newInstance()->import('jobs_attributes/struct.sql');
 
     osc_set_preference('cv_email', '', 'jobs_plugin', 'STRING');
-    osc_set_preference('allow_cv_upload', '0', 'jobs_plugin', 'BOOLEAN');
-    osc_set_preference('allow_cv_unreg', '1', 'jobs_plugin', 'BOOLEAN');
+    osc_set_preference('allow_cv_upload', '1', 'jobs_plugin', 'BOOLEAN');
+    osc_set_preference('allow_cv_unreg', '0', 'jobs_plugin', 'BOOLEAN');
     osc_set_preference('send_me_cv', '0', 'jobs_plugin', 'BOOLEAN');
     
     osc_set_preference('version', 320, 'jobs_plugin', 'INTEGER');
