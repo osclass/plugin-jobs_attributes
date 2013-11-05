@@ -41,7 +41,6 @@
             <option value="UNDEF" <?php if( @$detail['e_position_type'] == 'UNDEF' ) { echo 'selected'; }; ?>><?php _e('Undefined', 'jobs_attributes'); ?></option>
             <option value="PART" <?php if( @$detail['e_position_type'] == 'PART' ) { echo 'selected'; }; ?>><?php _e('Part time', 'jobs_attributes'); ?></option>
             <option value="FULL" <?php if( @$detail['e_position_type'] == 'FULL' ) { echo 'selected'; }; ?>><?php _e('Full-time', 'jobs_attributes'); ?></option>
-            <option value="TEMP" <?php if( @$detail['e_position_type'] == 'TEMP' ) { echo 'selected'; }; ?>><?php _e('Temp', 'jobs_attributes'); ?></option>
         </select>
     </div>
     <div class="row">

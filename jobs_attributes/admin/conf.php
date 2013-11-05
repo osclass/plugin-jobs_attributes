@@ -20,7 +20,7 @@
  */
 ?>
 <?php
-
+require_once('ModelJobs.php');
 
 if(Params::getParam('plugin_action')=='done') {
     osc_set_preference('cv_email', Params::getParam('cv_email'), 'jobs_plugin', 'STRING');
@@ -29,7 +29,7 @@ if(Params::getParam('plugin_action')=='done') {
     osc_set_preference('send_me_cv', (Params::getParam('send_me_cv')!=1)?0:1, 'jobs_plugin', 'BOOLEAN');
     osc_reset_preferences();
     osc_add_flash_ok_message( __('Settings updated', 'jobs_plugin'), 'admin');
-
+    
 }
 
 ?>
@@ -58,7 +58,7 @@ if(Params::getParam('plugin_action')=='done') {
                     <br/>
 
                     <input style="height: 20px; padding-left: 4px;padding-top: 4px;" type="checkbox" <?php echo (osc_get_preference('send_me_cv', 'jobs_plugin') ? 'checked="true"' : ''); ?> name="send_me_cv" id="send_me_cv" value="1" />
-                    <label for="enabled_comments"><?php _e('Send all emails to the following email (if not checked the resumes will be sent to ad\'s author)', 'jobs_attributes'); ?></label>
+                    <label for="enabled_comments"><?php _e('Send all emails to the following email (if not checked the resumes will be send to ad\'s author)', 'jobs_attributes'); ?></label>
                     <br/>
 
                     <label><?php _e('E-mail', 'jobs_attributes');?></label><input type="text" name="cv_email" id="cv_email" value="<?php echo osc_get_preference('cv_email', 'jobs_plugin'); ?>" />
@@ -73,11 +73,11 @@ if(Params::getParam('plugin_action')=='done') {
                 <legend><?php _e('Help', 'jobs_attributes'); ?></legend>
                 <p>
                     <label>
-                        <?php _e('You could allow users to send their resumes to a specific email address or to send them to the author of the ad. Also, you could specify if unregistered are allowed to upload their resumes', 'jobs_attributes'); ?>.
+                        <?php _e('You could allow users to send their resumes to a specific email address or to send them to the author of the ad. Also you could specify is unregistered users could or could not upload their resumes', 'jobs_attributes'); ?>.
                     </label>
                 </p>
             </fieldset>
         </div>
-        <div style="clear: both;"></div>
+        <div style="clear: both;"></div>										
     </div>
 </div>
