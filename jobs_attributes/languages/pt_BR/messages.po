@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Jobs attributes package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-30 11:39+0100\n"
+"PO-Revision-Date: 2013-11-05 12:58-0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: Poedit 1.5.7\n"
 "Project-Id-Version: Jobs attributes\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
@@ -27,8 +27,12 @@ msgid "Recalculate salary hour"
 msgstr "Recalcular hora salarial"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:89
-msgid "If you have updated this plugin, you need to recalculate values of salary hour, to obtain correct results in searches"
-msgstr "Se você tiver atualizado este plugin, você precisa recalcular valores da hora salarial, para obter resultados corretos nas buscas"
+msgid ""
+"If you have updated this plugin, you need to recalculate values of salary "
+"hour, to obtain correct results in searches"
+msgstr ""
+"Se você tiver atualizado este plugin, você precisa recalcular valores da "
+"hora salarial, para obter resultados corretos nas buscas"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:81
@@ -84,8 +88,12 @@ msgid "Allow unregistered users to upload their resumes"
 msgstr "Permitir upload de currículos de utilizadores não registados "
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:67
-msgid "Send all emails to the following email (if not checked the resumes will be send to ad's author)"
-msgstr "Enviar todos os emails para o seguinte e-mail (se não verificados os currículos serão enviados ao autor anúncio)"
+msgid ""
+"Send all emails to the following email (if not checked the resumes will be "
+"send to ad's author)"
+msgstr ""
+"Enviar todos os emails para o seguinte e-mail (se não verificados os "
+"currículos serão enviados ao autor anúncio)"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:70
 msgid "E-mail"
@@ -104,16 +112,30 @@ msgid "Salary slider step value"
 msgstr "Salário valor base"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:107
-msgid "You could allow users to send their resumes to a specific email address or to send them to the author of the ad. Also you could specify is unregistered users could or could not upload their resumes"
-msgstr "Você pode permitir que os usuários enviem seus currículos para um endereço de e-mail específico ou para enviá-los para o autor do anúncio. Além disso, você pode especificar se os utilizadores não registados poderam ou não fazer upload de seus currículos"
+msgid ""
+"You could allow users to send their resumes to a specific email address or "
+"to send them to the author of the ad. Also you could specify is unregistered "
+"users could or could not upload their resumes"
+msgstr ""
+"Você pode permitir que os usuários enviem seus currículos para um endereço "
+"de e-mail específico ou para enviá-los para o autor do anúncio. Além disso, "
+"você pode especificar se os utilizadores não registados poderam ou não fazer "
+"upload de seus currículos"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:109
-msgid "The salary range will appear as a slider, at the search page and at the publish page. You could modify the minimum and maximum values of that slider as well as the value of the \"steps\" or increments"
-msgstr "A faixa salarial vai aparecer como um controle mediano, na página de pesquisa e na página de publicação. Você pode modificar os valores mínimo e máximo , assim como o valor do \\ \"base \\\" ou incremento "
+msgid ""
+"The salary range will appear as a slider, at the search page and at the "
+"publish page. You could modify the minimum and maximum values of that slider "
+"as well as the value of the \"steps\" or increments"
+msgstr ""
+"A faixa salarial vai aparecer como um controle mediano, na página de "
+"pesquisa e na página de publicação. Você pode modificar os valores mínimo e "
+"máximo , assim como o valor do \\ \"base \\\" ou incremento "
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:110
 msgid "Server error. Upload directory isn't writable"
-msgstr "Error no servidor. O directório de upload não tem permissão de escrita."
+msgstr ""
+"Error no servidor. O directório de upload não tem permissão de escrita."
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:114
 msgid "No files were uploaded"
@@ -136,14 +158,22 @@ msgid "Someone sent you his/her resume. ( %s )"
 msgstr "Alguém lhe enviou ele/ela um resumo (%s)"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:138
-msgid "Someone sent you his/her resume. You could find it attached on this email, you could find the job offer here: %s"
-msgstr "Alguém lhe enviou ele/ela um resumo. Você pode encontrá-lo no anexo neste e-mail, poderá encontrar a oferta de trabalho aqui"
+msgid ""
+"Someone sent you his/her resume. You could find it attached on this email, "
+"you could find the job offer here: %s"
+msgstr ""
+"Alguém lhe enviou ele/ela um resumo. Você pode encontrá-lo no anexo neste e-"
+"mail, poderá encontrar a oferta de trabalho aqui"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:158
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:161
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:180
-msgid "Could not save uploaded file. The upload was cancelled, or server error encountered"
-msgstr "Não se salvou o upload do ficheiro. o upload foi cancelado ou o servidor encontrou um erro."
+msgid ""
+"Could not save uploaded file. The upload was cancelled, or server error "
+"encountered"
+msgstr ""
+"Não se salvou o upload do ficheiro. o upload foi cancelado ou o servidor "
+"encontrou um erro."
 
 #: /var/www/osclass-plugins-git/jobs_attributes/index.php:254
 msgid "Plugin Options"
@@ -193,7 +223,7 @@ msgstr "Salário"
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:104
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:169
 msgid "Desired experience"
-msgstr "Experiência desejada "
+msgstr "Experiência desejada"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:44
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:114
@@ -205,7 +235,7 @@ msgstr "Estudos"
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:124
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:189
 msgid "Minimum requirements"
-msgstr "Requerimentos mínimos "
+msgstr "Requerimentos mínimos"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:56
 #: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:134
@@ -253,3 +283,8 @@ msgstr "Semana"
 msgid "Month"
 msgstr "Mês"
 
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:3
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:44
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:24
+msgid "Temporary"
+msgstr "temporário"

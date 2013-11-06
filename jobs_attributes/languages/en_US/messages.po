@@ -9,11 +9,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Country: UNITED STATES\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SearchPath-0: /var/www/osclass-plugins-git/jobs_attributes\n"
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:34
@@ -37,7 +37,9 @@ msgid "Allow unregistered users to upload their resumes"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:67
-msgid "Send all emails to the following email (if not checked the resumes will be send to ad's author)"
+msgid ""
+"Send all emails to the following email (if not checked the resumes will be "
+"send to ad's author)"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:70
@@ -66,7 +68,9 @@ msgid "Recalculate salary hour"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:89
-msgid "If you have updated this plugin, you need to recalculate values of salary hour, to obtain correct results in searches"
+msgid ""
+"If you have updated this plugin, you need to recalculate values of salary "
+"hour, to obtain correct results in searches"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:104
@@ -74,11 +78,17 @@ msgid "Help"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:107
-msgid "You could allow users to send their resumes to a specific email address or to send them to the author of the ad. Also you could specify is unregistered users could or could not upload their resumes"
+msgid ""
+"You could allow users to send their resumes to a specific email address or "
+"to send them to the author of the ad. Also you could specify is unregistered "
+"users could or could not upload their resumes"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/conf.php:109
-msgid "The salary range will appear as a slider, at the search page and at the publish page. You could modify the minimum and maximum values of that slider as well as the value of the \"steps\" or increments"
+msgid ""
+"The salary range will appear as a slider, at the search page and at the "
+"publish page. You could modify the minimum and maximum values of that slider "
+"as well as the value of the \"steps\" or increments"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:110
@@ -108,13 +118,17 @@ msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:138
 #, php-format
-msgid "Someone sent you his/her resume. You could find it attached on this email, you could find the job offer here: %s"
+msgid ""
+"Someone sent you his/her resume. You could find it attached on this email, "
+"you could find the job offer here: %s"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:158
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:161
 #: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:180
-msgid "Could not save uploaded file. The upload was cancelled, or server error encountered"
+msgid ""
+"Could not save uploaded file. The upload was cancelled, or server error "
+"encountered"
 msgstr ""
 
 #: /var/www/osclass-plugins-git/jobs_attributes/index.php:253
@@ -258,3 +272,8 @@ msgstr ""
 msgid "Job attributes"
 msgstr ""
 
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:3
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:44
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:24
+msgid "Temporary"
+msgstr ""
