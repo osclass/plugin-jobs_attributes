@@ -70,7 +70,7 @@
     </div>
     <?php } ?>
 </div>
-<?php if(osc_get_preference('allow_cv_upload', 'plugin')=='1' && ((osc_get_preference('allow_cv_unreg', 'jobs_plugin')=='1' && !osc_is_web_user_logged_in()) || osc_is_web_user_logged_in())) { ?>
+<?php if(osc_get_preference('allow_cv_upload', 'jobs_plugin')=='1' && ((osc_get_preference('allow_cv_unreg', 'jobs_plugin')=='1' && !osc_is_web_user_logged_in()) || osc_is_web_user_logged_in())) { ?>
 <br/>
 <div id="cv_uploader">
     <noscript>
@@ -86,7 +86,7 @@
                 if(osc_version()<320) {
                     echo osc_ajax_plugin_url(osc_plugin_folder(__FILE__) . "cv_uploader.php?id=" . osc_item_id());
                 } else {
-                    echo osc_route_ajax_url('jobs-attr-cvupload', array('id' => osc_item_id()));
+                    echo osc_route_ajax_url('jobs-attr-cv-upload', array('id' => osc_item_id()));
                 }; ?>',
             debug: false
         });           
