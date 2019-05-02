@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jobs attributes 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-29 10:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ricardo Sequeira <ricardosequeira93@gmail.com>\n"
+"Language-Team: ricardosequeira93@gmail.com <ricardosequeira93@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_PT\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: /var/www/osclass-plugins-git/jobs_attributes\n"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:34
+msgid "Settings updated"
+msgstr "Configurações atualizadas"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:42
+msgid "Recalculation finished"
+msgstr "Re-cálculo terminado"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:51
+msgid "Jobs Options"
+msgstr ""
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:59
+msgid "Allow upload of resumes"
+msgstr "Ativar upload de CVs"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:63
+msgid "Allow unregistered users to upload their resumes"
+msgstr "Permitir upload de CVs a utilizadores não registados"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:67
+msgid "Send all emails to the following email (if not checked the resumes will be send to ad's author)"
+msgstr "Enviar todos os emails para o seguinte endereço de email (se esta opção não estiver seleccionada, os currículos serão enviados para o anunciante)"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:70
+msgid "E-mail"
+msgstr "Email"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:73
+msgid "Salary slider min value"
+msgstr "Valor min do slider do salário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:75
+msgid "Salary slider max value"
+msgstr "Valor max do slider do salário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:77
+msgid "Salary slider step value"
+msgstr "Valor do step do slider do salário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:80
+msgid "Update"
+msgstr "Atualizar"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:86
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:96
+msgid "Recalculate salary hour"
+msgstr "Recalcular valor salário/hora"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:89
+msgid "If you have updated this plugin, you need to recalculate values of salary hour, to obtain correct results in searches"
+msgstr "Se atualizou este plug-in, é necessário recalcular os valores da salário/hora para obter resultados corretos nas pesquisas"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:104
+msgid "Help"
+msgstr "Ajuda"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:107
+msgid "You could allow users to send their resumes to a specific email address or to send them to the author of the ad. Also you could specify is unregistered users could or could not upload their resumes"
+msgstr "Pode permitir que os utilizadores enviem os currículos para um endereço de email específico ou enviá-los para o autor do anúncio. Também pode escolher se os utilizadores não registados podem ou não enviar currículos"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/conf.php:109
+msgid "The salary range will appear as a slider, at the search page and at the publish page. You could modify the minimum and maximum values of that slider as well as the value of the \"steps\" or increments"
+msgstr "O valor do salário aparecerá como um slider na página de pesquisa e na página do anúncio. Pode alterar os valores mínimo e máximo desse slider, bem como o valor do step/incrementos"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:110
+msgid "Server error. Upload directory isn't writable"
+msgstr "Erro de servidor. O diretório de upload não tem permissões de escrita"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:114
+msgid "No files were uploaded"
+msgstr "Não foi enviado qualquer ficheiro"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:120
+msgid "File is empty"
+msgstr "O ficheiro está vazio"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:124
+msgid "File is too large"
+msgstr "O ficheiro excede o tamanho permitido"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:132
+msgid "File has an invalid extension"
+msgstr "A extensão do ficheiro não é válida"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:137
+#, php-format
+msgid "Someone sent you his/her resume. ( %s )"
+msgstr "Alguém lhe enviou o currículo dele(a). (%s)"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:138
+#, php-format
+msgid "Someone sent you his/her resume. You could find it attached on this email, you could find the job offer here: %s"
+msgstr "Alguém lhe enviou o currículo dele(a). Pode encontrar o ficheiro em anexo a este email. O anúncio está disponível aqui: % s"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:158
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:161
+#: /var/www/osclass-plugins-git/jobs_attributes/cv_uploader.php:180
+msgid "Could not save uploaded file. The upload was cancelled, or server error encountered"
+msgstr "Não foi possível guardar o ficheiro enviado. O upload foi cancelado ou ocorreu um erro no servidor"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/index.php:253
+msgid "Configure plugin"
+msgstr "Configurar plugin"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/index.php:254
+msgid "Plugin Options"
+msgstr "Opções do Plugin"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:2
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:35
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:33
+msgid "Hire someone"
+msgstr "Contratar alguém"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:2
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:44
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:34
+msgid "Looking for a job"
+msgstr "Procuro um emprego"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:3
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:64
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:32
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:46
+msgid "Undefined"
+msgstr "Indefinido"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:3
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:65
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:48
+msgid "Part time"
+msgstr "Part-time"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:3
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:66
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:47
+msgid "Full-time"
+msgstr "Full-time"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:80
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:60
+msgid "Hour"
+msgstr "Hora"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:81
+msgid "Day"
+msgstr "Dia"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:82
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:61
+msgid "Week"
+msgstr "Semana"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:83
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:62
+msgid "Month"
+msgstr "Mês"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:4
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:84
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:63
+msgid "Year"
+msgstr "Ano"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:8
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:24
+msgid "Job details"
+msgstr "Detalhes do anúncio"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:13
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:27
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:29
+msgid "Relation"
+msgstr "Relação"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:19
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:53
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:39
+msgid "Company name"
+msgstr "Nome da empresa"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:25
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:62
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:43
+msgid "Position type"
+msgstr "Horário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:31
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:75
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:53
+msgid "Salary range"
+msgstr "Salário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:31
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:75
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:53
+msgid "Salary"
+msgstr "Salário"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:38
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:104
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:169
+msgid "Desired experience"
+msgstr "Experiência desejada"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:44
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:114
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:179
+msgid "Studies"
+msgstr "Habilitações"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:50
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:124
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:189
+msgid "Minimum requirements"
+msgstr "Requisitos mínimos"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:56
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:134
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:199
+msgid "Desired requirements"
+msgstr "Requisitos desejados"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:62
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:144
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:209
+msgid "Contract"
+msgstr "Contrato"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:68
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:154
+#: /var/www/osclass-plugins-git/jobs_attributes/item_edit.php:219
+msgid "Company description"
+msgstr "Descrição da empresa"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/item_detail.php:77
+msgid "Please enable JavaScript to use cv uploader"
+msgstr "Por favor, ative o Javascript para utilizar o upload de CV"
+
+#: /var/www/osclass-plugins-git/jobs_attributes/search_form.php:27
+msgid "Job attributes"
+msgstr "Atributos do anúncio"
